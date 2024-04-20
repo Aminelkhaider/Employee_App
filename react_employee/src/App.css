@@ -1,0 +1,116 @@
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 30px 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    font-size:larger;
+}
+.footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align:end;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+.employee-list {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.employee-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.employee-list button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.employee-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.employee-list th,
+.employee-list td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.employee-list th {
+    background-color: #f8f9fa;
+}
+
+.employee-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.employee-list tr:hover {
+    background-color: #cce5ff;
+}
+.employee-form {
+    font-family: Arial, sans-serif;
+    width: 50%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.employee-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.employee-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.employee-form input[type="text"],
+.employee-form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.employee-form button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.employee-form button.save {
+    background-color: #007bff;
+    color: white;
+}
+
+.employee-form button.cancel {
+    background-color: red;
+    color: white;
+}
+
